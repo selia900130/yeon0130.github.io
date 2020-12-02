@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>個人履歷</title>
+    <link rel="stylesheet" type="text/css" href="css/resume.css">
+</head>
+<body>
+  <section>
+       <div class="about">
+		<div class="post">
+			<img src="image/selfie.jpg" class="selfie">
+        
+        <div class="h1">『自己做出決定，才是精彩的人生。』</div>
+		<div class="intro">
+			<p>我叫徐妍婷，目前正就讀中原大學資訊管理學系，充滿好奇心，喜歡去體驗各種不同的事物。</p>
+            <p Align=right><a href="https://www.facebook.com/yeon0130/" target="_blank" title="徐妍婷的FB"><img src="image/facebook.png" class="icon"></a>
+			<a href="https://www.instagram.com/yeon_0130_/" target="_blank" title="徐妍婷的IG"><img src="image/instagram.png" class="icon"></a>
+			<a href="mailto:selia900130@gmail.com" target="_blank" title="徐妍婷的EMAIL"><img src="image/gmail.png" class="icon"></a></p>
+		</div></div>
+    </div></section>
+
+<section>
+<div class="about1"> 
+    <h5><font size="7"; color=#660077;><strong>&nbsp;【專業技能】</strong></font></h5>
+    <div class="aaa"><p>C#</p></div>
+<div class="container">
+  <div class="skills cc">80%</div>
+</div>
+
+<div class="aaa"><p>JAVA</p></div>
+<div class="container">
+  <div class="skills java">80%</div>
+</div>
+
+<div class="aaa"><p>HTML/CSS</p></div>
+<div class="container">
+  <div class="skills html">70%</div>
+</div>
+
+<div class="aaa"><p>WORD/EXCEL/PPT</p></div>
+<div class="container">
+  <div class="skills word">90%</div>
+</div>
+</div>
+</section>
+
+
+<section>
+    <div class="about2"> 
+        <h5><font size="7"; color=#660077;>&nbsp;【課程專案】</font></h5>
+    <div class="move">
+        <div class="move123">
+            <button class="accordion">大一企業概論</button>
+            <div class="panel">
+                <p class="title"><b>資想皂起來-手工肥皂</b></p>
+                <p class="p123">這是與台灣肯納自閉症基金會所合作的專案，希望可以推廣肯納兒所親手製作的手工肥皂，
+                    讓大家重視到肯納兒的存在。在這之中也提升自己的規劃、行銷能力，理解了很多在平常學習不到的東西。</p>
+                    <p Align=center><img src="image/program.jpg" class="qqq"></p>
+            </div>
+            <br>
+            <button class="accordion">大一管理學</button>
+            <div class="panel">
+                <p class="title"><b>圖書館服務學習</b></p>
+                <p class="p123">由於疫情關係，在尋找這項專案服務對象的路途上十分艱辛，很高興可以跟中原大學圖書館合作，
+                    在三天共十二小時的服務過程中，我們所做的事就是讓每位使用圖書館的人都可以更有系統的使用這個環境。也深刻的體會到管理最重要的目的是要確保對的人做對的事，而且把事情做對。
+                </p><p Align=center><img src="image/library.jpg" class="qqq"></p>
+            </div>
+            <br>
+            <h5><font size="7"; color=#660077;>【工作經歷】</font></h5>
+            <button class="accordion"><img src="image/ek.jpg" class="sss">漢升密封科技</button>
+            <div class="panel">
+                <p class="title"><b>在進入大學前的暑假及大一的寒假，因緣際會來到這間公司擔任行政助理，主要是在處理人事以及會計方面的相關事項。</b></p>
+            </div>
+            <br>
+            <button class="accordion"><img src="image/saizeriya.png" class="sss">薩莉亞 Saizeriya</button>
+            <div class="panel">
+              <p class="title"><b>這是我第一次接觸餐飲業，跟前一份行政助理的工作性質不同，所以做任何事都不太熟悉，但人總是勤能補拙。</b></p>
+        </div>
+            <br>
+            <button class="accordion"><img src="image/sunmai.png" class="sss">金色三麥 Sunmai</button>
+            <div class="panel">
+                <p class="title"><b>有了前面一份餐飲工作的經驗，所以很快就上手，目前仍然在職中。</b></p>
+            </div>
+        </div>
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function()
+            {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight)
+        {
+        panel.style.maxHeight = null;
+        }
+        else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+            });
+            }
+        </script>
+</div>
+
+</section>
+<p align="center">copyright © 2020 By Yen Ting , Hsu</p>
+
+
+</body>
+</html>
